@@ -59,6 +59,19 @@ form {
     box-shadow: #ffffffbe 0px 0px 20px 0px;
     margin: 90px auto;
 }
+
+input{
+    border: 0;
+    outline: none;
+    padding: 8px 8px;
+    margin: 7px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    background-color: #0000008d;
+}
+
 button{
     width: 150px;
     height: 40px;
@@ -80,21 +93,8 @@ button{
 button:hover {
     color: rgb(117, 91, 91);
 }
-input{
-    border: 0;
-    outline: none;
-    padding: 8px 8px;
-    margin: 7px;
-    border-radius: 10px;
-    color: #ffffff;
-    font-size: 18px;
-    width: 100%;
-    background-color: #0000008d;
-}
-textarea {
-    height: 100px;
-    resize: none;
-}
+
+
 span {
     display: flex;
     flex-direction: column;
